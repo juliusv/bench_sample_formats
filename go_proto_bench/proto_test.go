@@ -4,6 +4,7 @@ import (
 	"math/rand"
 	"net/http"
 	_ "net/http/pprof"
+	"sync"
 	"testing"
 
 	"code.google.com/p/goprotobuf/proto"
